@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TwoBrowsersSuite]" parallel="tests">
+  <test thread-count="5" name="TwoBrowsersTest(failed)" parallel="tests">
+    <classes>
+      <class name="myTestNGPack.Two_Browsers">
+        <methods>
+          <include name="divya"/>
+        </methods>
+      </class> <!-- myTestNGPack.Two_Browsers -->
+    </classes>
+  </test> <!-- TwoBrowsersTest(failed) -->
+</suite> <!-- Failed suite [TwoBrowsersSuite] -->
